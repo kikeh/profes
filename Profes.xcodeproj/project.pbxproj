@@ -7,6 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		210E604F15627DCD0051D750 /* cell.png in Resources */ = {isa = PBXBuildFile; fileRef = 210E604E15627DCD0051D750 /* cell.png */; };
+		2113A275158648F70085D9CC /* TablaDetallesTutoria.m in Sources */ = {isa = PBXBuildFile; fileRef = 2113A274158648F70085D9CC /* TablaDetallesTutoria.m */; };
+		2113A27815864DEF0085D9CC /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2113A27715864DEF0085D9CC /* QuartzCore.framework */; };
+		2113A27A15865D610085D9CC /* loading3.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2113A27915865D610085D9CC /* loading3.gif */; };
+		211D59321570DDBD008BACBA /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 211D59311570DDBC008BACBA /* MessageUI.framework */; };
+		214D539D15617999005230C3 /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 214D539C15617999005230C3 /* bg.png */; };
+		21670A3B15712264000BF10D /* DisplayMap.m in Sources */ = {isa = PBXBuildFile; fileRef = 21670A3A15712264000BF10D /* DisplayMap.m */; };
+		21B3E224154DED46008C3495 /* DetalleMapa.m in Sources */ = {isa = PBXBuildFile; fileRef = 21B3E223154DED46008C3495 /* DetalleMapa.m */; };
+		21B3E227154DF211008C3495 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21B3E226154DF211008C3495 /* MapKit.framework */; };
+		21B3E229154E000E008C3495 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21B3E228154E000E008C3495 /* CoreLocation.framework */; };
+		21DDF91F1562DF33003077C1 /* topbar.png in Resources */ = {isa = PBXBuildFile; fileRef = 21DDF91E1562DF33003077C1 /* topbar.png */; };
+		21DDF9221562E45E003077C1 /* topbar2.png in Resources */ = {isa = PBXBuildFile; fileRef = 21DDF9211562E45E003077C1 /* topbar2.png */; };
+		21EDB0AD1534ECA10031DD7A /* camaraOFF.png in Resources */ = {isa = PBXBuildFile; fileRef = 21EDB0A91534ECA10031DD7A /* camaraOFF.png */; };
+		21EDB0AE1534ECA10031DD7A /* camaraON.png in Resources */ = {isa = PBXBuildFile; fileRef = 21EDB0AA1534ECA10031DD7A /* camaraON.png */; };
+		21EDB0AF1534ECA10031DD7A /* profesOFF.png in Resources */ = {isa = PBXBuildFile; fileRef = 21EDB0AB1534ECA10031DD7A /* profesOFF.png */; };
+		21EDB0B01534ECA10031DD7A /* profesON.png in Resources */ = {isa = PBXBuildFile; fileRef = 21EDB0AC1534ECA10031DD7A /* profesON.png */; };
+		21EDB0B315360A2F0031DD7A /* Profesores.m in Sources */ = {isa = PBXBuildFile; fileRef = 21EDB0B215360A2F0031DD7A /* Profesores.m */; };
+		21EEA2AB1570F7B400950ADA /* CamaraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21EEA2AA1570F7B400950ADA /* CamaraViewController.m */; };
 		21F337481524BB0B004F4288 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21F337471524BB0B004F4288 /* UIKit.framework */; };
 		21F3374A1524BB0B004F4288 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21F337491524BB0B004F4288 /* Foundation.framework */; };
 		21F3374C1524BB0B004F4288 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21F3374B1524BB0B004F4288 /* CoreGraphics.framework */; };
@@ -15,22 +33,64 @@
 		21F337581524BB0B004F4288 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F337571524BB0B004F4288 /* AppDelegate.m */; };
 		21F3375B1524BB0B004F4288 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21F337591524BB0B004F4288 /* MainStoryboard.storyboard */; };
 		21F3375E1524BB0B004F4288 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F3375D1524BB0B004F4288 /* ViewController.m */; };
+		41911F8E153DB65F0020D2E9 /* Profesor.m in Sources */ = {isa = PBXBuildFile; fileRef = 41911F8D153DB65F0020D2E9 /* Profesor.m */; };
+		41F7181E1546E68300285FB3 /* logosia.png in Resources */ = {isa = PBXBuildFile; fileRef = 41F7181D1546E68300285FB3 /* logosia.png */; };
+		41F718221546E8E800285FB3 /* TablaDetallesProfesor.m in Sources */ = {isa = PBXBuildFile; fileRef = 41F718211546E8E800285FB3 /* TablaDetallesProfesor.m */; };
+		9C871CD615656F3300D45CBF /* CustomCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C871CD515656F3300D45CBF /* CustomCamera.m */; };
+		9C871CD915656F9A00D45CBF /* CameraTapperViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C871CD815656F9A00D45CBF /* CameraTapperViewController.m */; };
+		9C8DA1B4154E7B3A0013CA97 /* DetalleAR.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8DA1B3154E7B3A0013CA97 /* DetalleAR.m */; };
+		9C8DA1B7154E8ACD0013CA97 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C8DA1B6154E8ACD0013CA97 /* MobileCoreServices.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		210E604E15627DCD0051D750 /* cell.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cell.png; sourceTree = "<group>"; };
+		2113A273158648F70085D9CC /* TablaDetallesTutoria.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TablaDetallesTutoria.h; sourceTree = "<group>"; };
+		2113A274158648F70085D9CC /* TablaDetallesTutoria.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TablaDetallesTutoria.m; sourceTree = "<group>"; };
+		2113A27715864DEF0085D9CC /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		2113A27915865D610085D9CC /* loading3.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = loading3.gif; sourceTree = SOURCE_ROOT; };
+		211D59311570DDBC008BACBA /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		214D539C15617999005230C3 /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
+		21670A3915712264000BF10D /* DisplayMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DisplayMap.h; sourceTree = "<group>"; };
+		21670A3A15712264000BF10D /* DisplayMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DisplayMap.m; sourceTree = "<group>"; };
+		21B3E222154DED46008C3495 /* DetalleMapa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetalleMapa.h; sourceTree = "<group>"; };
+		21B3E223154DED46008C3495 /* DetalleMapa.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetalleMapa.m; sourceTree = "<group>"; };
+		21B3E226154DF211008C3495 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		21B3E228154E000E008C3495 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		21DDF91E1562DF33003077C1 /* topbar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = topbar.png; sourceTree = "<group>"; };
+		21DDF9211562E45E003077C1 /* topbar2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = topbar2.png; sourceTree = "<group>"; };
+		21EDB0A91534ECA10031DD7A /* camaraOFF.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camaraOFF.png; sourceTree = "<group>"; };
+		21EDB0AA1534ECA10031DD7A /* camaraON.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camaraON.png; sourceTree = "<group>"; };
+		21EDB0AB1534ECA10031DD7A /* profesOFF.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = profesOFF.png; sourceTree = "<group>"; };
+		21EDB0AC1534ECA10031DD7A /* profesON.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = profesON.png; sourceTree = "<group>"; };
+		21EDB0B115360A2F0031DD7A /* Profesores.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Profesores.h; sourceTree = SOURCE_ROOT; };
+		21EDB0B215360A2F0031DD7A /* Profesores.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Profesores.m; sourceTree = SOURCE_ROOT; };
+		21EEA2A91570F7B400950ADA /* CamaraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CamaraViewController.h; sourceTree = "<group>"; };
+		21EEA2AA1570F7B400950ADA /* CamaraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CamaraViewController.m; sourceTree = "<group>"; };
 		21F337431524BB0B004F4288 /* Profes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Profes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		21F337471524BB0B004F4288 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		21F337491524BB0B004F4288 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		21F3374B1524BB0B004F4288 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		21F3374F1524BB0B004F4288 /* Profes-Info.plist */ = {isa = PBXFileReference; path = "Profes-Info.plist"; sourceTree = "<group>"; };
+		21F3374F1524BB0B004F4288 /* Profes-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Profes-Info.plist"; sourceTree = "<group>"; };
 		21F337511524BB0B004F4288 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		21F337531524BB0B004F4288 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		21F337551524BB0B004F4288 /* Profes-Prefix.pch */ = {isa = PBXFileReference; path = "Profes-Prefix.pch"; sourceTree = "<group>"; };
-		21F337561524BB0B004F4288 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		21F337551524BB0B004F4288 /* Profes-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Profes-Prefix.pch"; sourceTree = "<group>"; };
+		21F337561524BB0B004F4288 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		21F337571524BB0B004F4288 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		21F3375A1524BB0B004F4288 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		21F3375C1524BB0B004F4288 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		21F3375C1524BB0B004F4288 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		21F3375D1524BB0B004F4288 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		41911F8C153DB65F0020D2E9 /* Profesor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Profesor.h; sourceTree = "<group>"; };
+		41911F8D153DB65F0020D2E9 /* Profesor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Profesor.m; sourceTree = "<group>"; };
+		41F7181D1546E68300285FB3 /* logosia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logosia.png; sourceTree = "<group>"; };
+		41F718201546E8E800285FB3 /* TablaDetallesProfesor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TablaDetallesProfesor.h; sourceTree = "<group>"; };
+		41F718211546E8E800285FB3 /* TablaDetallesProfesor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TablaDetallesProfesor.m; sourceTree = "<group>"; };
+		9C871CD415656F3300D45CBF /* CustomCamera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCamera.h; sourceTree = "<group>"; };
+		9C871CD515656F3300D45CBF /* CustomCamera.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCamera.m; sourceTree = "<group>"; };
+		9C871CD715656F9A00D45CBF /* CameraTapperViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraTapperViewController.h; sourceTree = "<group>"; };
+		9C871CD815656F9A00D45CBF /* CameraTapperViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraTapperViewController.m; sourceTree = "<group>"; };
+		9C8DA1B2154E7B3A0013CA97 /* DetalleAR.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetalleAR.h; sourceTree = "<group>"; };
+		9C8DA1B3154E7B3A0013CA97 /* DetalleAR.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetalleAR.m; sourceTree = "<group>"; };
+		9C8DA1B6154E8ACD0013CA97 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +98,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2113A27815864DEF0085D9CC /* QuartzCore.framework in Frameworks */,
+				211D59321570DDBD008BACBA /* MessageUI.framework in Frameworks */,
+				9C8DA1B7154E8ACD0013CA97 /* MobileCoreServices.framework in Frameworks */,
+				21B3E229154E000E008C3495 /* CoreLocation.framework in Frameworks */,
+				21B3E227154DF211008C3495 /* MapKit.framework in Frameworks */,
 				21F337481524BB0B004F4288 /* UIKit.framework in Frameworks */,
 				21F3374A1524BB0B004F4288 /* Foundation.framework in Frameworks */,
 				21F3374C1524BB0B004F4288 /* CoreGraphics.framework in Frameworks */,
@@ -47,9 +112,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		21EDB0A81534ECA10031DD7A /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				2113A27915865D610085D9CC /* loading3.gif */,
+				21DDF9211562E45E003077C1 /* topbar2.png */,
+				21DDF91E1562DF33003077C1 /* topbar.png */,
+				210E604E15627DCD0051D750 /* cell.png */,
+				214D539C15617999005230C3 /* bg.png */,
+				41F7181D1546E68300285FB3 /* logosia.png */,
+				21EDB0A91534ECA10031DD7A /* camaraOFF.png */,
+				21EDB0AA1534ECA10031DD7A /* camaraON.png */,
+				21EDB0AB1534ECA10031DD7A /* profesOFF.png */,
+				21EDB0AC1534ECA10031DD7A /* profesON.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
 		21F337381524BB0A004F4288 = {
 			isa = PBXGroup;
 			children = (
+				21EDB0A81534ECA10031DD7A /* Images */,
 				21F3374D1524BB0B004F4288 /* Profes */,
 				21F337461524BB0B004F4288 /* Frameworks */,
 				21F337441524BB0B004F4288 /* Products */,
@@ -67,6 +150,11 @@
 		21F337461524BB0B004F4288 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2113A27715864DEF0085D9CC /* QuartzCore.framework */,
+				211D59311570DDBC008BACBA /* MessageUI.framework */,
+				9C8DA1B6154E8ACD0013CA97 /* MobileCoreServices.framework */,
+				21B3E228154E000E008C3495 /* CoreLocation.framework */,
+				21B3E226154DF211008C3495 /* MapKit.framework */,
 				21F337471524BB0B004F4288 /* UIKit.framework */,
 				21F337491524BB0B004F4288 /* Foundation.framework */,
 				21F3374B1524BB0B004F4288 /* CoreGraphics.framework */,
@@ -90,10 +178,30 @@
 		21F3374E1524BB0B004F4288 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				21EDB0B115360A2F0031DD7A /* Profesores.h */,
+				21EDB0B215360A2F0031DD7A /* Profesores.m */,
 				21F3374F1524BB0B004F4288 /* Profes-Info.plist */,
 				21F337501524BB0B004F4288 /* InfoPlist.strings */,
 				21F337531524BB0B004F4288 /* main.m */,
 				21F337551524BB0B004F4288 /* Profes-Prefix.pch */,
+				41911F8C153DB65F0020D2E9 /* Profesor.h */,
+				41911F8D153DB65F0020D2E9 /* Profesor.m */,
+				41F718201546E8E800285FB3 /* TablaDetallesProfesor.h */,
+				41F718211546E8E800285FB3 /* TablaDetallesProfesor.m */,
+				21B3E222154DED46008C3495 /* DetalleMapa.h */,
+				21B3E223154DED46008C3495 /* DetalleMapa.m */,
+				9C8DA1B2154E7B3A0013CA97 /* DetalleAR.h */,
+				9C8DA1B3154E7B3A0013CA97 /* DetalleAR.m */,
+				9C871CD415656F3300D45CBF /* CustomCamera.h */,
+				9C871CD515656F3300D45CBF /* CustomCamera.m */,
+				9C871CD715656F9A00D45CBF /* CameraTapperViewController.h */,
+				9C871CD815656F9A00D45CBF /* CameraTapperViewController.m */,
+				21EEA2A91570F7B400950ADA /* CamaraViewController.h */,
+				21EEA2AA1570F7B400950ADA /* CamaraViewController.m */,
+				21670A3915712264000BF10D /* DisplayMap.h */,
+				21670A3A15712264000BF10D /* DisplayMap.m */,
+				2113A273158648F70085D9CC /* TablaDetallesTutoria.h */,
+				2113A274158648F70085D9CC /* TablaDetallesTutoria.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -124,7 +232,7 @@
 		21F3373A1524BB0A004F4288 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0420;
+				LastUpgradeCheck = 0430;
 			};
 			buildConfigurationList = 21F3373D1524BB0A004F4288 /* Build configuration list for PBXProject "Profes" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -150,6 +258,16 @@
 			files = (
 				21F337521524BB0B004F4288 /* InfoPlist.strings in Resources */,
 				21F3375B1524BB0B004F4288 /* MainStoryboard.storyboard in Resources */,
+				21EDB0AD1534ECA10031DD7A /* camaraOFF.png in Resources */,
+				21EDB0AE1534ECA10031DD7A /* camaraON.png in Resources */,
+				21EDB0AF1534ECA10031DD7A /* profesOFF.png in Resources */,
+				21EDB0B01534ECA10031DD7A /* profesON.png in Resources */,
+				41F7181E1546E68300285FB3 /* logosia.png in Resources */,
+				214D539D15617999005230C3 /* bg.png in Resources */,
+				210E604F15627DCD0051D750 /* cell.png in Resources */,
+				21DDF91F1562DF33003077C1 /* topbar.png in Resources */,
+				21DDF9221562E45E003077C1 /* topbar2.png in Resources */,
+				2113A27A15865D610085D9CC /* loading3.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,6 +281,16 @@
 				21F337541524BB0B004F4288 /* main.m in Sources */,
 				21F337581524BB0B004F4288 /* AppDelegate.m in Sources */,
 				21F3375E1524BB0B004F4288 /* ViewController.m in Sources */,
+				21EDB0B315360A2F0031DD7A /* Profesores.m in Sources */,
+				41911F8E153DB65F0020D2E9 /* Profesor.m in Sources */,
+				41F718221546E8E800285FB3 /* TablaDetallesProfesor.m in Sources */,
+				21B3E224154DED46008C3495 /* DetalleMapa.m in Sources */,
+				9C8DA1B4154E7B3A0013CA97 /* DetalleAR.m in Sources */,
+				9C871CD615656F3300D45CBF /* CustomCamera.m in Sources */,
+				9C871CD915656F9A00D45CBF /* CameraTapperViewController.m in Sources */,
+				21EEA2AB1570F7B400950ADA /* CamaraViewController.m in Sources */,
+				21670A3B15712264000BF10D /* DisplayMap.m in Sources */,
+				2113A275158648F70085D9CC /* TablaDetallesTutoria.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -228,6 +356,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -236,10 +365,14 @@
 		21F337621524BB0B004F4288 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Profes/Profes-Prefix.pch";
 				INFOPLIST_FILE = "Profes/Profes-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -247,10 +380,14 @@
 		21F337631524BB0B004F4288 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Profes/Profes-Prefix.pch";
 				INFOPLIST_FILE = "Profes/Profes-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -265,7 +402,7 @@
 				21F337601524BB0B004F4288 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		21F337611524BB0B004F4288 /* Build configuration list for PBXNativeTarget "Profes" */ = {
 			isa = XCConfigurationList;
@@ -274,6 +411,7 @@
 				21F337631524BB0B004F4288 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};
